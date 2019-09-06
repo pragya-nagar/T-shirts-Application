@@ -31,22 +31,22 @@ export class AppComponent implements OnInit
     this.showDetails=false;
     this.buyButton=false;
   }
-  name="vidha paradkar";
+  name="Pragya Nagar";
   ngOnInit()
   {
     this.tshirts=this.getTShirts();
     console.log(this.tshirts);
   }
   getTShirts() {
-    return  [
+     return  [
       {
         "productId": 1,
-        "productName": "black shirt female",
+        "productName": "White T-shirt male",
         "productCode": "GDN-0011",
-        "description": "this is a female black tshirt",
+        "description": "A comfortable summer wear",
         "price": 19.95,
-        "backimage":"assets/Images/t1back.jpg",
-        "imageUrl": "assets/Images/t1front.jpg",
+        "backimage":"https://github.com/pragya-nagar/T-shirts-Application/blob/master/src/assets/Images/t1back.jpg?raw=true",
+        "imageUrl": "https://github.com/pragya-nagar/T-shirts-Application/blob/master/src/assets/Images/t1front.jpg?raw=true",
         "quantity":40,
         "imggsrc":"",
         "releaseDate": "",
@@ -54,57 +54,59 @@ export class AppComponent implements OnInit
       },
       {
         "productId": 2,
-        "productName": "blue shirt female",
+        "productName": "Red T-shirt male",
         "productCode": "GDN-0023",
-        "description": "this is a blue female shirt",
+        "description": "A comfortable summer wear",
         "price": 32.99,
         "quantity":80,
-        "backimage":"assets/Images/t2back.jpg",
+        "backimage":"https://github.com/pragya-nagar/T-shirts-Application/blob/master/src/assets/Images/t2back.jpg?raw=true",
         "imggsrc":"",
-        "imageUrl": "assets/Images/t2front.jpg",
+        "imageUrl": "https://github.com/pragya-nagar/T-shirts-Application/blob/master/src/assets/Images/t2front.jpg?raw=true",
         "releaseDate": "",
         "size":"medium"
       },
       {
         "productId": 5,
-        "productName": "grey shirt female",
+        "productName": "Pink T-shirt female",
         "productCode": "TBX-0048",
-        "description": "this is a grey shirt female",
+        "description": "This is a comfortable t-shirt available in all sizes",
         "price": 8.9,
         "starRating": 4.8,
         "quantity":23,
-        "backimage":"assets/Images/t3back.jpg",
+        "backimage":"https://github.com/pragya-nagar/T-shirts-Application/blob/master/src/assets/Images/t3back.jpg?raw=true",
         "imggsrc":"",
-        "imageUrl": "assets/Images/t3front.jpg",
+        "imageUrl": "https://github.com/pragya-nagar/T-shirts-Application/blob/master/src/assets/Images/t3front.jpg?raw=true",
         "releaseDate": "",
         "size":"medium"
       },
       {
         "productId": 8,
-        "productName": "whhite shirt female",
+        "productName": "Red t-shirt male",
         "productCode": "TBX-0022",
-        "description": "this is a white shirt female ",
+        "description": "This is red T-shirt male ",
         "price": 11.55,
         "quantity":253,
-        "backimage":"assets/Images/t2back.jpg",
+        "backimage":"https://github.com/pragya-nagar/T-shirts-Application/blob/master/src/assets/Images/t2back.jpg?raw=true",
         "imggsrc":"",
-        "imageUrl": "assets/Images/t2front.jpg",
+        "imageUrl": "https://github.com/pragya-nagar/T-shirts-Application/blob/master/src/assets/Images/t2front.jpg?raw=true",
         "releaseDate": "",
         "size":"medium"
       },
       {
         "productId": 10,
-        "productName": "Summer T-shirt male",
+        "productName": "White T-shirt male",
         "productCode": "GMG-0042",
-        "description": "this is a yellow shirt female",
+        "description": "White T-shirt available in all sizes",
         "price": 35.95,
         "quantity":66,
-        "backimage":"assets/Images/t1back.jpg",
+        "backimage":"https://github.com/pragya-nagar/T-shirts-Application/blob/master/src/assets/Images/t1back.jpg?raw=true",
         "imggsrc":"",
-        "imageUrl": "assets/Images/t1front.jpg",
+        "imageUrl": "https://github.com/pragya-nagar/T-shirts-Application/blob/master/src/assets/Images/t1front.jpg?raw=true",
         "releaseDate": "",
         "size":"medium"
       }
     ]
   }
 }
+    
+     
